@@ -86,8 +86,8 @@ public void paint(Graphics g){
 
 public void paintComponent(Graphics g){
    // g.fillOval(x, y, 15, 15);
-    j1.dibujerseRelleno(j1x, j1y, 1, g);
-    j2.dibujerseRelleno(j2x, j2y, 2, g);
+    j1.dibujarseRelleno(j1x, j1y, 1, g);
+    j2.dibujarseRelleno(j2x, j2y, 2, g);
     b.dibujarseRelleno(bCx, bCy, g);
      
      //acá´para moverse
@@ -98,6 +98,8 @@ public void paintComponent(Graphics g){
      bCx+=3;
      bCy-=3;
      }
+     
+     //pensalo bien XD
     repaint();
 }
 

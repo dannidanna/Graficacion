@@ -18,6 +18,7 @@ public class Jugador extends Componente{
     int color;
     int dx, dy;
     Graphics gj; 
+    int puntaje;
    
     public Jugador() {
         lib = new LibreriaGrafica();
@@ -40,7 +41,7 @@ public class Jugador extends Componente{
     
     }
     
-    public void dibujerseRelleno( int xp, int yp, int c, Graphics g){
+    public void dibujarseRelleno( int xp, int yp, int c, Graphics g){
     int dx1, dy1;
     dx1=dx; dy1=dy;
      posX= xp;
